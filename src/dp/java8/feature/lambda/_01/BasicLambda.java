@@ -8,7 +8,7 @@ public class BasicLambda {
 	        // by default implements abstractFun()
 	        FuncInterface fobj = (int x, int y)->System.out.println(x+y);
 	 
-	        // This calls above lambda expression and prints 10.
+	        // This calls above lambda expression and prints sum.
 	        fobj.abstractFun(5,10); 
 	    }
 }
