@@ -7,9 +7,11 @@ public class BasicLambda {
 	        // functional interface. This interface
 	        // by default implements abstractFun()
 	        FuncInterface fobj = (int x, int y)->System.out.println(x+y);
+	        FuncInterface1 fobj1 = (int x, int y)-> (x+y)+"";
 	 
 	        // This calls above lambda expression and prints sum.
-	        fobj.abstractFun(5,10); 
+	        fobj.abstractFun(5,10);
+	        System.out.println(fobj1.abstractFun(1,1));
 	    }
 }
 
@@ -17,4 +19,10 @@ interface FuncInterface
 {
     // An abstract function
     void abstractFun(int x,int y);
+}
+
+interface FuncInterface1
+{
+    // An abstract function
+    String abstractFun(int x,int y);
 }
