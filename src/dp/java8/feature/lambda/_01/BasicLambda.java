@@ -15,14 +15,14 @@ public class BasicLambda {
 	    }
 }
 
-interface FuncInterface
-{
+@FunctionalInterface
+interface FuncInterface{
     // An abstract function
     void abstractFun(int x,int y);
 }
 
-interface FuncInterface1
-{
+@FunctionalInterface
+interface FuncInterface1{
     // An abstract function
     String abstractFun(int x,int y);
 }

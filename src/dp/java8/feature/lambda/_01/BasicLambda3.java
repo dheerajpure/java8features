@@ -7,6 +7,9 @@ interface int1{
 public class BasicLambda3 {
 	  public static void main(String args[])
 	    {
+		  
+		  
+		  
 		  int1 i =(Integer j) -> {
 	    	   return j*2;
 	       };
