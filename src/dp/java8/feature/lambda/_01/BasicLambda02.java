@@ -1,7 +1,7 @@
 package dp.java8.feature.lambda._01;
 
 
-public class BasicLambda2 {
+public class BasicLambda02 {
 	  public static void main(String args[])
 	    {
 	        IntOperation op = (int x, int y)-> 

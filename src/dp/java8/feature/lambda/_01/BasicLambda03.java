@@ -4,7 +4,7 @@ interface int1{
 	int square(Integer j);
 }
 
-public class BasicLambda3 {
+public class BasicLambda03 {
 	  public static void main(String args[])
 	    {
 		  

@@ -1,6 +1,6 @@
 package dp.java8.feature.lambda._01;
 
-public class BasicLambda {
+public class BasicLambda01 {
 	  public static void main(String args[])
 	    {
 	        // lambda expression to implement above
