@@ -10,6 +10,7 @@ import dp.java.design.validation.validate_01.validators.MinLengthValidator;
 //https://github.com/JExaples/quicklooks/tree/master/Chain-of-Responsibility/src/com/jgodara/validation/cor
 //https://stackoverflow.com/questions/23408923/for-a-large-validation-task-is-chain-of-responsibility-pattern-a-good-bet
 public class Main {
+	
 
 	public static void main(String[] args) throws Exception {
 		Validator<String> pwRule = new CompositePasswordRule(
